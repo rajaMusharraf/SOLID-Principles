@@ -6,30 +6,31 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		263909F02F46313F0064281C /* UserDefaultsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263909EF2F46313E0064281C /* UserDefaultsService.swift */; };
+		269C36F62F4580F60040BB61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 269C36EB2F4580F60040BB61 /* Assets.xcassets */; };
+		269C36F82F4580F60040BB61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 269C36F02F4580F60040BB61 /* LaunchScreen.storyboard */; };
+		269C36F92F4580F60040BB61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 269C36F22F4580F60040BB61 /* Main.storyboard */; };
+		269C36FA2F4580F60040BB61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269C36ED2F4580F60040BB61 /* AppDelegate.swift */; };
+		269C36FB2F4580F60040BB61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269C36F32F4580F60040BB61 /* SceneDelegate.swift */; };
+		269C36FC2F4580F60040BB61 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269C36F42F4580F60040BB61 /* LoginVC.swift */; };
+		269C37002F45907A0040BB61 /* UserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269C36FF2F4590770040BB61 /* UserSession.swift */; };
+		269C37042F4591300040BB61 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269C37032F45912C0040BB61 /* LoginModel.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		263909EF2F46313E0064281C /* UserDefaultsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsService.swift; sourceTree = "<group>"; };
 		269C36A22F457EA50040BB61 /* SOLID Principles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SOLID Principles.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		269C36EB2F4580F60040BB61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		269C36ED2F4580F60040BB61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		269C36EE2F4580F60040BB61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		269C36EF2F4580F60040BB61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		269C36F12F4580F60040BB61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		269C36F32F4580F60040BB61 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		269C36F42F4580F60040BB61 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		269C36FF2F4590770040BB61 /* UserSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSession.swift; sourceTree = "<group>"; };
+		269C37032F45912C0040BB61 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		269C36B42F457EA60040BB61 /* Exceptions for "SOLID Principles" folder in "SOLID Principles" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 269C36A12F457EA50040BB61 /* SOLID Principles */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		269C36A42F457EA50040BB61 /* SOLID Principles */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				269C36B42F457EA60040BB61 /* Exceptions for "SOLID Principles" folder in "SOLID Principles" target */,
-			);
-			path = "SOLID Principles";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		269C369F2F457EA50040BB61 /* Frameworks */ = {
@@ -45,7 +46,7 @@
 		269C36992F457EA50040BB61 = {
 			isa = PBXGroup;
 			children = (
-				269C36A42F457EA50040BB61 /* SOLID Principles */,
+				269C36F52F4580F60040BB61 /* SOLID Principles */,
 				269C36A32F457EA50040BB61 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +57,63 @@
 				269C36A22F457EA50040BB61 /* SOLID Principles.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		269C36EC2F4580F60040BB61 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				269C36EB2F4580F60040BB61 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		269C36F52F4580F60040BB61 /* SOLID Principles */ = {
+			isa = PBXGroup;
+			children = (
+				269C36ED2F4580F60040BB61 /* AppDelegate.swift */,
+				269C36F32F4580F60040BB61 /* SceneDelegate.swift */,
+				269C36EE2F4580F60040BB61 /* Info.plist */,
+				269C36F02F4580F60040BB61 /* LaunchScreen.storyboard */,
+				269C36FE2F45906E0040BB61 /* User Session */,
+				269C36FD2F4581030040BB61 /* Features */,
+				269C36EC2F4580F60040BB61 /* Resources */,
+			);
+			path = "SOLID Principles";
+			sourceTree = "<group>";
+		};
+		269C36FD2F4581030040BB61 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				269C36F22F4580F60040BB61 /* Main.storyboard */,
+				269C37012F4591190040BB61 /* Login */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		269C36FE2F45906E0040BB61 /* User Session */ = {
+			isa = PBXGroup;
+			children = (
+				269C36FF2F4590770040BB61 /* UserSession.swift */,
+				263909EF2F46313E0064281C /* UserDefaultsService.swift */,
+			);
+			path = "User Session";
+			sourceTree = "<group>";
+		};
+		269C37012F4591190040BB61 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				269C37022F4591240040BB61 /* Models */,
+				269C36F42F4580F60040BB61 /* LoginVC.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		269C37022F4591240040BB61 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				269C37032F45912C0040BB61 /* LoginModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +130,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				269C36A42F457EA50040BB61 /* SOLID Principles */,
 			);
 			name = "SOLID Principles";
 			packageProductDependencies = (
@@ -122,6 +177,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				269C36F62F4580F60040BB61 /* Assets.xcassets in Resources */,
+				269C36F82F4580F60040BB61 /* LaunchScreen.storyboard in Resources */,
+				269C36F92F4580F60040BB61 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +190,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				263909F02F46313F0064281C /* UserDefaultsService.swift in Sources */,
+				269C37042F4591300040BB61 /* LoginModel.swift in Sources */,
+				269C36FA2F4580F60040BB61 /* AppDelegate.swift in Sources */,
+				269C36FB2F4580F60040BB61 /* SceneDelegate.swift in Sources */,
+				269C36FC2F4580F60040BB61 /* LoginVC.swift in Sources */,
+				269C37002F45907A0040BB61 /* UserSession.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		269C36F02F4580F60040BB61 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				269C36EF2F4580F60040BB61 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		269C36F22F4580F60040BB61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				269C36F12F4580F60040BB61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		269C36B62F457EA60040BB61 /* Debug */ = {
